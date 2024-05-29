@@ -14,3 +14,9 @@ Nếu không chỉ định table thì mặc định sẽ tự thêm s vào tên 
 ```bash
 php artisan make:model Product --table=products
 ```
+-c nếu muốn tạo controller cùng với model
+# Controllers
+## Tạo controller
+```bash
+php artisan make:controller ProductController --table=products
+```
